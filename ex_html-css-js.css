@@ -21,3 +21,15 @@ form {
 input, select, textarea{
    border-color: #eaeaea;border-radius:1px solid;
 }
+botonSubmit{
+   background-color: #0077b6;color:white;text-align: center;
+}
+::placeholder{
+   color:#f4a261;
+}
+body{
+   margin: 15px;
+   padding: 10px;
+   border-radius: 10px;
+}
+
