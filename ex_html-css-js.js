@@ -9,7 +9,7 @@ document.getElementById("formulario").onsubmit=function(event){
         event.preventDefault;
     }else{
         validador="";
-        if(contains("correo","@")){
+        if(!contains("correo","@")){
             event.preventDefault;
             error.innerHTML="Algunos campos son incorrectos o están incompletos";
         }else{
