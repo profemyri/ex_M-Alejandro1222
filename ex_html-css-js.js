@@ -40,5 +40,4 @@ getElementById("instrucciones").oninput=function(event){
         event.preventDefault;
     }
 };
-if(instrucciones)
 
